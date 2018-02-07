@@ -3,3 +3,48 @@ obj
 .vscode
 *.db
 *.suo
+
+
+# See http:/help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+Demo/DatingApp/DatingApp.SPA/dist
+Demo/DatingApp/DatingApp.SPA/dist-server
+Demo/DatingApp/DatingApp.SPA/tmp
+Demo/DatingApp/DatingApp.SPA/out-tsc
+
+# dependencies
+Demo/DatingApp/DatingApp.SPA/node_modules
+
+# IDEs and editors
+Demo/DatingApp/DatingApp.SPA/.idea
+Demo/DatingApp/DatingApp.SPA/.project
+Demo/DatingApp/DatingApp.SPA/.classpath
+Demo/DatingApp/DatingApp.SPA/.c9/
+*.launch
+Demo/DatingApp/DatingApp.SPA/.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+Demo/DatingApp/DatingApp.SPA/.sass-cache
+Demo/DatingApp/DatingApp.SPA/connect.lock
+Demo/DatingApp/DatingApp.SPA/coverage
+Demo/DatingApp/DatingApp.SPA/libpeerconnection.log
+npm-debug.log
+testem.log
+Demo/DatingApp/DatingApp.SPA/typings
+
+# e2e
+Demo/DatingApp/DatingApp.SPA/e2e/*.js
+Demo/DatingApp/DatingApp.SPA/e2e/*.map
+
+# System Files
+Demo/DatingApp/DatingApp.SPA/.DS_Store
+Thumbs.db
