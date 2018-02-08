@@ -18,7 +18,6 @@ export class ValueComponent implements OnInit {
   getValues() {
     this.http.get('http://localhost:56691/api/values')
       .subscribe(response => {
-        console.log(response);
         this.values = response.json();
       });
   }
