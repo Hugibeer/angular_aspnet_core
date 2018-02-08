@@ -7,4 +7,4 @@ Param(
 . .\Settings.ps1
 
 $requestURL = "$BaseUrl/$endpoint"
-Invoke-RestMethod -Method Get -Uri $requestURL
+Invoke-RestMethod -Method Get -Uri $requestURL -Headers $table_headers | ConvertTo-Json >> outfile.json

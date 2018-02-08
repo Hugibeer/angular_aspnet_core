@@ -13,9 +13,4 @@ $body = @{
 
 $jsonBody = $body | ConvertTo-Json
 
-$data_type = "application/json"
-$table_headers = @{
-    "Content-Type" = $data_type
-    "Accept" = "application/json;odata=fullmetadata"
-}
 Invoke-RestMethod -Method Post -Uri $requestURL -Body $jsonBody -Headers $table_headers
