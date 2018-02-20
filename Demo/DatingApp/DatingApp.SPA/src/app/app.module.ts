@@ -4,22 +4,24 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { ValueComponent } from './value/value.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
+import { AuthService } from './_services/auth.service';
+import { HomeComponent } from './home/home.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ValueComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent,
+    RegisterComponent
 ],
   imports: [
     BrowserModule,
     HttpModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ AuthService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
