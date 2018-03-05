@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatingApp.API", "DatingApp.API.csproj", "{86E82692-F89B-4AA6-9069-36002A7247AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,7 +14,24 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Debug|x64.Build.0 = Debug|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Debug|x86.Build.0 = Debug|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Release|x64.ActiveCfg = Release|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Release|x64.Build.0 = Release|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Release|x86.ActiveCfg = Release|Any CPU
+		{86E82692-F89B-4AA6-9069-36002A7247AE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC57D279-72DE-4F7B-8978-174BA98A595D}
 	EndGlobalSection
 EndGlobal

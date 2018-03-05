@@ -20,7 +20,7 @@ export class NavbarComponent implements OnInit {
       .subscribe(data => {
         console.log('success');
       }, error => {
-        console.log('error happened');
+        console.log(error);
       });
   }
   logout() {
